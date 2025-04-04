@@ -1,0 +1,29 @@
+[MQ3 Alcohol Sensor]
+VCC   → 5V
+GND   → GND
+AOUT  → A0
+
+[SIM800 GSM Module]
+TX    → D3
+RX    → D2
+VCC   → 3.3V
+GND   → GND
+
+[NEO-6M GPS Module]
+TX    → D9 (AltSoftSerial RX)
+RX    → D8 (optional)
+VCC   → 5V
+GND   → GND
+
+[Accelerometer]
+X OUT → A1
+Y OUT → A2
+Z OUT → A3
+VCC   → 3.3V
+GND   → GND
+
+[LEDs / Vibration]
+D6    → Status LED
+D10   → v1 Output
+D11   → v2 Output
+D12   → v3 Output
